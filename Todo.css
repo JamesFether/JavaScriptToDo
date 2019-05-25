@@ -1,0 +1,85 @@
+html, body 
+
+{
+    margin: 0px;
+    background-color: light gray; 
+}
+
+.textbox {
+ 
+    color:black; 
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: center;
+    margin:  10px; 
+    height: 50px;
+    border-radius: 5px;
+    padding: 13px;
+    letter-spacing: 3px;
+    background-color: white; 
+
+}
+
+.Add {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-weight: lighter; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Type { 
+border-color: black;     
+height: 31px;
+margin: 10px 15px;
+border-width: 2px; 
+padding: 1px 6px; 
+border-radius: 5px; 
+width: 150px; 
+font-family: 'Times New Roman', Times, serif; 
+letter-spacing: 1px; 
+} 
+
+#Add {
+border-color: black; 
+margin: -7px;
+border-width: 2px;   
+padding: 10px  11px; 
+border-radius: 5px;
+background-color: white; 
+}
+
+#clear 
+{
+    border-color: black; 
+    margin: 10px;
+    border-width: 2px;   
+    padding: 10px  8px; 
+    border-radius: 5px;
+    background-color: white;  
+}
+     
+.NotePad  { 
+ margin: 1%; 
+text-align: center;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: lighter;
+}
+.delete  {
+    border: none; 
+    color: red; 
+    background-color: white;  
+    font: bold; 
+    font-size: 150%;
+    border-radius: 100px; 
+    opacity: 0;
+}
+
+.delete:hover {
+   opacity: 5;
+}
+
+li {
+    margin-bottom: 11px;  
+}
