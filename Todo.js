@@ -29,7 +29,8 @@ function Add()
     newButton.onclick = MyOnClick; // Delete butoon 
     newItem.appendChild(document.createTextNode(input.value)); //This Adds text to the list.
     newItem.appendChild(newButton); //The delete button. 
-    content.appendChild(newItem); //This Adds an Items. 
+    content.appendChild(newItem); //This Adds an Items.
+    input.value = "";   
 }
 
 
